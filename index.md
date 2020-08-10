@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The Puppy">
+    <meta name="keywords" content="HTML, SASS, JavaScript, jQuery, Gulp">
+    <meta name="author" content="Aleksandar Stanisavljevic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swing Swing Ljulja</title>
+
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <img src="img/logo.png" alt="img/logo.png">
+    
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/red.jpg" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/yellow.jpg" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/black.jpg" class="d-block" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+
+
+      <section class="shop">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <img src="img/black.jpg" class="card-img-top" alt="Crna ljuljaska">
+                <div class="card-body">
+                  <h5 class="card-title">Crna ljuljaska</h5>
+                  <p class="card-text">Ručno rađena ljuljaškica za decu od 6 meseci do 3 godine. 100% od prirodnih materijala.</p>
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-text text-right">6.500 RSD</h5>
+                  <a href="#" class="card-link ">Detaljnije...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <img src="img/yellow.jpg" class="card-img-top" alt="Zuta ljuljaska">
+                <div class="card-body">
+                  <h5 class="card-title">Zuta ljuljaska</h5>
+                  <p class="card-text">Ručno rađena ljuljaškica za decu od 6 meseci do 3 godine. 100% od prirodnih materijala.</p>
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-text text-right">6.500 RSD</h5>
+                  <a href="#" class="card-link ">Detaljnije...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <img src="img/red.jpg" class="card-img-top" alt="Crvena ljuljaska">
+                <div class="card-body">
+                  <h5 class="card-title">Crvena ljuljaska</h5>
+                  <p class="card-text">Ručno rađena ljuljaškica za decu od 6 meseci do 3 godine. 100% od prirodnih materijala.</p>
+                </div>
+                
+                <div class="card-body">
+                  <h5 class="card-text text-right">6.500 RSD</h5>
+                  <a href="#" class="card-link ">Detaljnije...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <footer>
+        <h3>Kontaktiraj nas</h3>
+
+        <div class="container contact">
+
+          <div class="row">
+            <div class="col-2">
+              <div class="row">
+                <div class="col-8">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link links" href="#">O nama</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link links" href="#">Proizvodi</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link links" href="#">Uputstvo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link links" href="#">Kontakt</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="col-3 contact_data">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <i class="fa fa-phone"></i><a href="tel:+381641234567"> 064/1234567</a>
+                </li>
+                <li class="nav-item">
+                  <i class="fa fa-envelope"></i><a href="mailto:swing-ljulja@gmail.com"> swing-ljulja@gmail.com</a>
+                </li>
+               
+              </ul>
+
+              <div class="row social_icons">
+                <div class="col">
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="col">
+                  <a href="https://www.instagram.com/swing_swing_ljulja/?hl=sr" target="_blank"><i class="fa fa-instagram social_icon"></i></a>
+                </div>
+                <div class="col">
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 offset-1 send_data">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Tvoje ime" aria-label="Tvoje ime">
+              </div>
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Tvoj email" aria-label="Tvoj email">
+              </div>
+              <div class="input-group">
+                <textarea class="form-control" rows="5" placeholder="Tvoja poruka" aria-label="Tvoja poruka"></textarea>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/"> Swing Swing Ljulja</a>
+        </div>
+      </footer>
+
+</body>
+</html>
