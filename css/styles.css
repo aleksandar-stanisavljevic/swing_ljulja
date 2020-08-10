@@ -1,0 +1,80 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.shop {
+  background: #d9dbf9;
+  padding-bottom: 8%;
+  padding-top: 8%;
+}
+.shop .card-title {
+  color: #ff6f69;
+}
+
+footer {
+  background: #f9f7d9;
+}
+footer .contact .links:hover {
+  font-weight: bold;
+  color: #e84a5f;
+}
+footer .contact .contact_data ul li .fa {
+  color: #24a19c;
+}
+footer .contact .contact_data ul li .fa:hover {
+  opacity: 1;
+}
+footer .contact .contact_data a {
+  text-decoration: none;
+}
+footer .contact .contact_data a:hover {
+  font-weight: bold;
+  color: #e84a5f;
+}
+footer .contact .contact_data .social_icons {
+  margin-top: 30%;
+}
+footer .contact .contact_data .fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+footer .contact .contact_data .fa:hover {
+  opacity: 0.7;
+}
+footer .contact .contact_data .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+footer .contact .contact_data .fa-instagram {
+  background: #E1306C;
+  color: white;
+}
+footer .contact .contact_data .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+footer h3 {
+  padding-top: 7%;
+  margin-bottom: 8%;
+  text-align: center;
+}
+footer .footer-copyright {
+  margin-top: 5%;
+}
+
+/*# sourceMappingURL=styles.css.map */
